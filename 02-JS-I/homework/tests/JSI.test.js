@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 const {
-  nuevaString,
+  nuevaString = "HOLA",
   nuevoNum,
   nuevoBool,
   nuevaResta,
