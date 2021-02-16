@@ -72,7 +72,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-    if (x == y){
+    if (x === y){
     return true;
   }
   return false;
@@ -87,7 +87,7 @@ function tienenMismaLongitud(str1, str2) {
   var longstr2;
   longstr1 = str1.length;
   longstr2 = str2.length;
-  if (longstr1 == longstr2) {
+  if (longstr1 === longstr2) {
      return true;
   }
      return false;
@@ -127,7 +127,7 @@ function esPar(num) {
   // Tu código:
 var resto;
 resto = num % 2;
-if (resto == 0){
+if (resto === 0){
    return true;  
 }
    return false;
@@ -139,7 +139,7 @@ function esImpar(num) {
   // Tu código:
   var resto;
   resto = num % 2;
-  if (resto == 1){
+  if (resto === 1){
      return true;  
   }
      return false;
@@ -201,7 +201,7 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
 var resultado;
-  if (numero == 0){
+  if (numero === 0){
   return false
 }
   if (numero > 0){
@@ -288,23 +288,23 @@ function esVocal(letra){
     resultado = "Dato incorrecto";
     return resultado
   }
-  if (letra == "a"){
+  if (letra === "a"){
     resultado = "Es vocal";
     return resultado;
   }
-    if (letra == "e"){
+    if (letra === "e"){
       resultado = "Es vocal";
       return resultado;
   }
-  if (letra == "i"){
+  if (letra === "i"){
     resultado = "Es vocal";
   return resultado;
   }
-  if (letra == "o"){
+  if (letra === "o"){
     resultado = "Es vocal";
   return resultado;
   }
-  if (letra == "u"){
+  if (letra === "u"){
     resultado = "Es vocal";
   return resultado;
   }
