@@ -1,0 +1,18 @@
+h1 {
+    text-align-last: center;
+    background-color: lightblue;
+ }
+ 
+ h3 {
+   text-align-last: center;
+   background-color: lightblue;
+}
+
+#titulo {
+    position:static;
+}
+
+#datospers {
+    position: relative;
+    font-size: 14px;
+}
